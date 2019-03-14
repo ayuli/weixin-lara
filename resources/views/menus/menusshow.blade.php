@@ -18,23 +18,8 @@
             <div class="conform">
                 <form>
                     <div class="cfD">
-                        工作年限：<select>
-                            <option>1年以内</option>
-                        </select> 审核状态：<label>
-                            <input type="radio" checked="checked" name="styleshoice1" />
-                            &nbsp;未审核</label>
-                        <label>
-                            <input type="radio" name="styleshoice1" />&nbsp;已通过</label>
-                        <label class="lar">
-                            <input type="radio" name="styleshoice1" />&nbsp;不通过</label>
-                        推荐状态：<label>
-                            <input type="radio" checked="checked" name="styleshoice2" />&nbsp;是</label>
-                        <label>
-                            <input type="radio" name="styleshoice2" />&nbsp;否</label>
-                    </div>
-                    <div class="cfD">
                         <input class="addUser" type="text" placeholder="输入用户名/ID/手机号/城市" />
-                        <button class="button">搜索</button>6
+                        <button class="button">搜索</button>
                         <a class="addA addA1" href="connoisseuradd.html">添加行家+</a>
                     </div>
                 </form>
@@ -44,20 +29,24 @@
                 <table border="1" cellspacing="0" cellpadding="0">
                     <tr>
                         <td width="100px" class="tdColor tdC">序号</td>
-                        <td width="300px" class="tdColor">标签名</td>
-                        <td width="140px" class="tdColor">此标签下粉丝数</td>
-                        <td width="200px" class="tdColor">查看标签下的用户</td>
+                        <td width="300px" class="tdColor">菜单名</td>
+                        <td width="140px" class="tdColor">类型</td>
                         <td width="200px" class="tdColor">操作</td>
                     </tr>
-                    @foreach($arr as $k=>$v)
+                    @foreach($button as $k=>$v)
                     <tr>
-                        <td>{{$v['id']}}</td>
+                        <td></td>
 
                         <td>{{$v['name']}}</td>
-                        <td>{{$v['count']}}</td>
-                        <td><a href="/examine?tagid={{$v['id']}}">查看</a></td>
                         <td>
-                            <a href="/tags/tagsUpdate?id={{$v['id']}}">
+                            @if($v['type']=="click")
+                                点击事件
+                                @elseif($v['type']=="view")
+                                推送事件
+                            @endif
+                        </td>
+                        <td>
+                            <a href="/tags/tagsUpdate?id=">
                                 <img class="operation update" src="/img/update.png">
                             </a>
                             <img class="operation delban" src="/img/delete.png">
@@ -65,7 +54,6 @@
                     </tr>
                     @endforeach
                 </table>
-                <div class="paging">此处是分页</div>
             </div>
             <!-- banner 表格 显示 end-->
         </div>

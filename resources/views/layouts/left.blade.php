@@ -107,28 +107,42 @@
         </dl>
         <dl class="system_log">
             <dt>
-                <img class="icon1" src="../img/coin14.png" /><img class="icon2"
-                                                                  src="../img/coin13.png" /> 心愿管理<img class="icon3"
-                                                                                                      src="../img/coin19.png" /><img class="icon4"
-                                                                                                                                     src="../img/coin20.png" />
+                <img class="icon1" src="../img/coin14.png" />
+                <img class="icon2" src="../img/coin13.png" /> 自定义菜单管理
+                <img class="icon3" src="../img/coin19.png" />
+                <img class="icon4" src="../img/coin20.png" />
             </dt>
             <dd>
-                <img class="coin11" src="../img/coin111.png" /><img class="coin22"
-                                                                    src="../img/coin222.png" /><a href="../wish.html" target="main"
-                                                                                                  class="cks">心愿管理</a><img class="icon5" src="../img/coin21.png" />
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="/menus" target="main" class="cks">
+                    增加自定义菜单
+                </a>
+                <img class="icon5" src="../img/coin21.png" />
+            </dd>
+            <dd>
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="menus/show" target="main" class="cks">
+                    展示自定义菜单
+                </a>
+                <img class="icon5" src="../img/coin21.png" />
             </dd>
         </dl>
         <dl class="system_log">
             <dt>
-                <img class="icon1" src="../img/coin15.png" /><img class="icon2"
-                                                                  src="../img/coin16.png" /> 约见管理<img class="icon3"
-                                                                                                      src="../img/coin19.png" /><img class="icon4"
-                                                                                                                                     src="../img/coin20.png" />
+                <img class="icon1" src="../img/coin15.png" />
+                <img class="icon2" src="../img/coin16.png" />
+                约见管理<img class="icon3" src="../img/coin19.png" />
+                <img class="icon4" src="../img/coin20.png" />
             </dt>
             <dd>
-                <img class="coin11" src="../img/coin111.png" /><img class="coin22"
-                                                                    src="../img/coin222.png" /><a href="../appointment.html"
-                                                                                                  target="main" class="cks">约见管理</a><img class="icon5"
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="../appointment.html" target="main" class="cks">
+                    约见管理
+                </a>
+                <img class="icon5"
                                                                                                                                          src="../img/coin21.png" />
             </dd>
         </dl>

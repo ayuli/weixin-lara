@@ -148,87 +148,70 @@ class weixinContorller extends Controller
     }
 
     /**
-     * 自定义菜单
+     * 自定义菜单添加展示
      */
     public function menus()
     {
-//        echo 1;exit;
+            return view('menus/menus');
+    }
+
+    /**
+     * 自定义菜单添加执行
+     */
+    public function menusAdd()
+    {
+//        $data = $request->input();
+//        var_dump($data);die;
+//        return view('/menus');
         $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this->accessToken();
-
         $data = [
-            "button"=>[
-                [
-                    "type"=>"click",
-                    "name"=>"娃娃",
-                    "sub_button"=>[
-                        [
-                            'type'=>'click',
-                            'name'=>'男娃',
-                            "key"=>"123"
-                        ],
-                        [
-                            'type'=>'click',
-                            'name'=>'女娃',
-                            "key"=>"112"
-                        ],
-                        [
-                            'type'=>'click',
-                            'name'=>'下单人',
-                            "key"=>"124"
-                        ],
-                    ]
-                ],
+        "button"=>[
+            [
+                "type"=>"click",
+                "name"=>"娃娃",
+                'key'=>123456
+            ],
 
-                [
-                    'type'=>'click',
-                    "name"=>"玩具",
-                    "sub_button"=>[
-                        [
-                        "type"=>"view",
-                        "name"=>"跳转",
-                        "url"=>"http://www.soso.com/"
-                        ],
-                        [
-                        "type"=>"click",
-                        "name"=>"店铺",
-                        "key"=>"V1001_GOOD"
-                        ]
-                   ]
-                ],
+            [
+                'type'=>'click',
+                "name"=>"玩具",
+                'key'=>123456
+            ],
 
-                [
-                    'type'=>'click',
-                    "name"=>"推广",
-                    "sub_button"=>[
-                        [
-                            "type"=>"view",
-                            "name"=>"搜索",
-                            "url"=>"http://www.soso.com/"
-                        ],
-                        [
-                            "type"=>"miniprogram",
-                            "name"=>"wxa",
-                            "url"=>"http://mp.weixin.qq.com",
-                            "appid"=>"wx286b93c14bbf93aa",
-                            "pagepath"=>"pages/lunar/index"
-                        ],
-                        [
-                            "type"=>"click",
-                            "name"=>"赞一下我们",
-                            "key"=>"V1001_GOOD"
-                        ]
-                    ]
-                ]
-
+            [
+                'type'=>'view',
+                "name"=>"推广",
+                'url'=>"https://www.baidu.com/"
             ]
-         ];
+
+        ]
+    ];
+
+
 
         $json = json_encode($data,JSON_UNESCAPED_UNICODE);
 
         $obj = new \Url();
-        $send = $obj->sendPost($url,$json);
-        var_dump($send);
 
+        $send = $obj->sendPost($url,$json);
+//        var_dump($send);die;
+
+        return $send;
+
+    }
+
+    /**
+     * 自定义菜单展示列表
+     */
+    public function menusShow()
+    {
+        $url = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token=".$this->accessToken();
+
+        $obj = new \Url();
+        $send = $obj->sendGet($url);
+        $json = json_decode($send,true);
+//        echo'<pre>';print_r($json['menu']);echo '<pre>';die;
+        return view('menus.menusshow',$json['menu']);
     }
 
     /**

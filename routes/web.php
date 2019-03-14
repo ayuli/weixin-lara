@@ -44,7 +44,9 @@ Route::any('/userManage','weixin\weixinContorller@userManage'); //修改
 
 
 //自定义菜单
-Route::post('/menus','weixin\weixinContorller@menus'); //创建
+Route::get('/menus','weixin\weixinContorller@menus'); //添加展示
+Route::post('/menus/add','weixin\weixinContorller@menusAdd'); //创建
+Route::get('/menus/show','weixin\weixinContorller@menusShow'); //展示列表
 
 //批量拉黑
 Route::post('/blacklist','weixin\weixinContorller@blacklist'); //拉黑
