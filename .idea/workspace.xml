@@ -6,11 +6,13 @@
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
@@ -22,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/weixin/moContorller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/weixin/moContorller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
@@ -37,6 +40,8 @@
       <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/extend/Url/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/extend/Url/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/TagsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/TagsModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/UserModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
@@ -65,9 +70,68 @@
       <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/dateIco.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/dateIco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/manhuaDate.1.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/manhuaDate.1.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/page1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/page1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/public.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/20140123121257_jHaev.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/20140123121257_jHaev.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/actionIMG.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/actionIMG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/banimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin04.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin05.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin07.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin08.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin09.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin11.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin111.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin111.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin14.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin15.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin17.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin18.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin19.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin20.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin21.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coin222.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coin222.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coinL1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coinL1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/coinL2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/coinL2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/con01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/con01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/full.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/headLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/headLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/indexBanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/indexBanner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logBanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logBanner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logLOGO.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logLOGO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logName.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logName.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logPwd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logPwd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logYZM.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logYZM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/no.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/no.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/ok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/shanchu.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/shanchu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/topic.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/topic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/update.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/update.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/userPICS.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/userPICS.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ajaxfileupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/ajaxfileupload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.mousewheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/manhuaDate.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/manhuaDate.1.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/public.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logs/wx_event.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/logs/wx_event.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
@@ -87,7 +151,19 @@
       <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/weixin/user.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/bst.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/bst.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/foot.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/foot.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/left.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/left.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tags/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tags/examine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/examine.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tags/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tags/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/manage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/manage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/weixin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/weixin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/weixin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/weixin/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
@@ -145,16 +221,16 @@
           <entry key="curl" value="25" />
           <entry key="env" value="35" />
           <entry key="json" value="23" />
-          <entry key="php" value="8454" />
+          <entry key="php" value="8530" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="35" />
-          <entry key="Blade" value="1700" />
+          <entry key="Blade" value="1759" />
           <entry key="HTML" value="32" />
           <entry key="JSON" value="23" />
-          <entry key="PHP" value="6747" />
+          <entry key="PHP" value="6764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -167,7 +243,7 @@
           <entry key="js" value="1" />
           <entry key="json" value="3" />
           <entry key="log" value="7" />
-          <entry key="php" value="59" />
+          <entry key="php" value="60" />
           <entry key="phtml" value="3" />
           <entry key="png" value="2" />
         </counts>
@@ -175,7 +251,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="4" />
-          <entry key="Blade" value="27" />
+          <entry key="Blade" value="28" />
           <entry key="CSS" value="2" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="2" />
@@ -244,8 +320,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="297" column="7" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="7" />
+            <state relative-caret-position="-216">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#367#399#0#PHP" />
                 <element signature="e#992#1087#0#PHP" />
@@ -253,7 +329,6 @@
                 <element signature="e#1168#1193#0#PHP" />
                 <element signature="e#1198#1728#0#PHP" />
                 <element signature="e#1734#1829#0#PHP" />
-                <element signature="e#1834#2283#0#PHP" />
                 <element signature="e#2289#2312#0#PHP" />
                 <element signature="e#2317#2759#0#PHP" />
                 <element signature="e#2765#2788#0#PHP" />
@@ -271,6 +346,7 @@
                 <element signature="e#8855#8950#0#PHP" />
                 <element signature="e#8955#9470#0#PHP" />
                 <element signature="e#9476#9573#0#PHP" />
+                <element signature="e#9863#10460#0#PHP" />
                 <element signature="e#10464#10563#0#PHP" />
                 <element signature="e#10539#11772#0#PHP" />
                 <element signature="e#11635#11736#0#PHP" />
@@ -281,37 +357,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/manage.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="154" column="22" lean-forward="true" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/blackshow.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/tags/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/tags/examine.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="922">
-              <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+            <state relative-caret-position="729">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -377,11 +426,11 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/left.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/blacklist.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/tags/show.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/tags/examine.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/manage.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php" />
+        <option value="$PROJECT_DIR$/resources/views/tags/examine.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tags/show.blade.php" />
       </list>
     </option>
   </component>
@@ -478,11 +527,11 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
-    <option name="width" value="1275" />
-    <option name="height" value="677" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="33" />
+    <option name="width" value="1314" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="添加" />
@@ -594,14 +643,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111769000" />
+    <option name="totallyTimeSpent" value="115058000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1275" height="677" extended-state="0" />
+    <frame x="58" y="33" width="1314" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22469136" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21770334" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -850,20 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tags/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tags/examine.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/blackshow.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1189">
@@ -873,15 +908,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/manage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="154" column="22" lean-forward="true" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+        <state relative-caret-position="403">
+          <caret line="192" column="11" lean-forward="true" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tags/examine.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tags/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="297" column="7" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="7" />
+        <state relative-caret-position="-216">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#367#399#0#PHP" />
             <element signature="e#992#1087#0#PHP" />
@@ -889,7 +938,6 @@
             <element signature="e#1168#1193#0#PHP" />
             <element signature="e#1198#1728#0#PHP" />
             <element signature="e#1734#1829#0#PHP" />
-            <element signature="e#1834#2283#0#PHP" />
             <element signature="e#2289#2312#0#PHP" />
             <element signature="e#2317#2759#0#PHP" />
             <element signature="e#2765#2788#0#PHP" />
@@ -907,6 +955,7 @@
             <element signature="e#8855#8950#0#PHP" />
             <element signature="e#8955#9470#0#PHP" />
             <element signature="e#9476#9573#0#PHP" />
+            <element signature="e#9863#10460#0#PHP" />
             <element signature="e#10464#10563#0#PHP" />
             <element signature="e#10539#11772#0#PHP" />
             <element signature="e#11635#11736#0#PHP" />

@@ -372,7 +372,7 @@ class weixinContorller extends Controller
         $json = json_encode($data,JSON_UNESCAPED_UNICODE);
         $obj = new \Url;
         $send = $obj->sendPost($url,$json);
-        var_dump($send);
+        return $send;
 
     }
 

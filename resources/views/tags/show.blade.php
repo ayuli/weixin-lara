@@ -37,8 +37,9 @@
                 <table border="1" cellspacing="0" cellpadding="0">
                     <tr>
                         <td width="100px" class="tdColor tdC">序号</td>
-                        <td width="300px" class="tdColor">姓名</td>
-                        <td width="200px" class="tdColor">查看</td>
+                        <td width="300px" class="tdColor">标签名</td>
+                        <td width="140px" class="tdColor">此标签下粉丝数</td>
+                        <td width="200px" class="tdColor">查看标签下的用户</td>
                         <td width="200px" class="tdColor">操作</td>
                     </tr>
                     @foreach($arr as $k=>$v)
@@ -46,7 +47,8 @@
                         <td>{{$v['id']}}</td>
 
                         <td>{{$v['name']}}</td>
-                        <td><a href="/examine?tagid={{$v['id']}}">查看标签下的用户</a></td>
+                        <td>{{$v['count']}}</td>
+                        <td><a href="/examine?tagid={{$v['id']}}">查看</a></td>
                         <td>
                             <a href="/tags/tagsUpdate?id={{$v['id']}}">
                                 <img class="operation update" src="/img/update.png">
