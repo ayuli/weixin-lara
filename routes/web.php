@@ -24,6 +24,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/weixin', 'weixin\weixinContorller@test');
 
 
+//redis 测试
+Route::get('/redis/add','weixin\weixinContorller@testAdd');
+Route::post('/redis/addo','weixin\weixinContorller@testAddDo');
+Route::get('/redis/show','weixin\weixinContorller@testShow');//展示
+
+
+
 
 //微信后台管理
 Route::get('/head','weixin\moContorller@head');

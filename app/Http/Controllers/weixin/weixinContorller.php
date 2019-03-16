@@ -9,7 +9,6 @@ use App\model\TagsModel;
 
 class weixinContorller extends Controller
 {
-
     public $appid = 'wxec28b3ff844e2bf3';
     public $appsecret = '25bf2acbd494c6856754eb96580f21f1';
 
@@ -158,43 +157,54 @@ class weixinContorller extends Controller
     /**
      * 自定义菜单添加执行
      */
-    public function menusAdd()
+    public function menusAdd(Request $request)
     {
-//        $data = $request->input();
-//        var_dump($data);die;
-//        return view('/menus');
+        $data = $request->input();
+//        print_r($data);die;
+        $count = count($data);
+        $arr = [];
+        for($i=0;$i<$count;$i++){
+            $arr[$i]['name'] = $data['name'][$i];
+            $arr[$i]['type'] = $data['type'][$i];
+            if($data['type'][$i]=='click'){
+                $arr[$i]['key'] = $data['keyurl'][$i];
+            }else{
+                $arr[$i]['url'] = $data['keyurl'][$i];
+            }
+        }
+
+        $info['button'] = $arr;
+
         $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this->accessToken();
-        $data = [
-        "button"=>[
-            [
-                "type"=>"click",
-                "name"=>"娃娃",
-                'key'=>123456
-            ],
+//        $data = [
+//        "button"=>[
+//            [
+//                "type"=>"click",
+//                "name"=>"娃娃",
+//                'key'=>123456
+//            ],
+//
+//            [
+//                'type'=>'click',
+//                "name"=>"玩具",
+//                'key'=>123456
+//            ],
+//
+//            [
+//                'type'=>'view',
+//                "name"=>"推广",
+//                'url'=>"https://www.baidu.com/"
+//            ]
+//
+//        ]
+//    ];
 
-            [
-                'type'=>'click',
-                "name"=>"玩具",
-                'key'=>123456
-            ],
 
-            [
-                'type'=>'view',
-                "name"=>"推广",
-                'url'=>"https://www.baidu.com/"
-            ]
-
-        ]
-    ];
-
-
-
-        $json = json_encode($data,JSON_UNESCAPED_UNICODE);
+        $json = json_encode($info,JSON_UNESCAPED_UNICODE);
 
         $obj = new \Url();
 
         $send = $obj->sendPost($url,$json);
-//        var_dump($send);die;
 
         return $send;
 
@@ -205,6 +215,7 @@ class weixinContorller extends Controller
      */
     public function menusShow()
     {
+//        echo phpinfo();die;
         $url = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token=".$this->accessToken();
 
         $obj = new \Url();
@@ -444,6 +455,79 @@ class weixinContorller extends Controller
     {
         return view('weixin.login');
     }
+
+
+    //redis 测试
+    public function testAdd()
+    {
+        return view('test.add');
+    }
+
+    /**
+     * redis 添加
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function testAddDo(Request $request)
+    {
+        $data = $request->input();
+        $id = Redis::incr('id');  //字符串自增
+
+        $user_key = "user".$id;
+
+        Redis::hSet($user_key,'id', $id);  //哈希存值
+        Redis::hSet($user_key,'name', $data['name']);
+        Redis::hSet($user_key,'age', $data['age']);
+
+        $user_list_key = "user_list";
+        Redis::rpush($user_list_key,$user_key);  //推入队列
+
+        return redirect('/redis/show');
+
+    }
+
+    /**
+     * redis展示
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function testShow(Request $request)
+    {
+        $user_list_key = "user_list";
+
+        $page = $request->input('page',1); //页码
+        $page_num = 3; //每页显示条数
+        $start = ($page-1)*$page_num;  //开始位置
+        $end = $start+$page_num-1;      //结束位置
+        $total = ceil(Redis::llen($user_list_key)/$page_num);  //总数=向上取整(总长度/每页显示条数)
+
+        $arrInfo = Redis::lrange($user_list_key,$start,$end);  //lrange列队列 (name,开始位置，结束位置)
+
+        $res = [];  //空数组
+        foreach($arrInfo as $v){   //  $v 是hash的名字
+            $data = Redis::hgetall($v);
+            array_push($res,$data);  //压入数组
+        }
+
+        //处理页码
+        $prev = $page-1<1?1:$page-1;
+        $next = $page+1>$total?$total:$page+1;
+
+        //页码
+        $arrPage = [
+            'first' =>1,
+            'prev'=> $prev,
+            'next'=> $next,
+            'total'=> $total
+        ];
+
+        $dataInfo['data'] = $res;
+        $dataInfo['arrPage'] = $arrPage;
+
+        return view('test.show',$dataInfo);
+    }
+
+
 
 }
 
