@@ -21,7 +21,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //微信
-Route::get('/weixin', 'weixin\weixinContorller@test');
+Route::get('/test', 'weixin\weixinContorller@test');
 
 
 //redis 测试

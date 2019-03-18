@@ -15,6 +15,7 @@ class weixinContorller extends Controller
     public $appsecret = '25bf2acbd494c6856754eb96580f21f1';
 
     public function test(Request $request){
+//        echo ['echostr'];
         $data  = file_get_contents("php://input");
         $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
 
