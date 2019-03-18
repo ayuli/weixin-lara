@@ -163,6 +163,8 @@
       <change beforePath="$PROJECT_DIR$/resources/views/tags/examine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/examine.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/tags/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/tags/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/manage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/manage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/weixin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/weixin/index.blade.php" afterDir="false" />
@@ -217,8 +219,9 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -226,16 +229,16 @@
           <entry key="curl" value="25" />
           <entry key="env" value="35" />
           <entry key="json" value="23" />
-          <entry key="php" value="14105" />
+          <entry key="php" value="14382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="35" />
-          <entry key="Blade" value="4428" />
+          <entry key="Blade" value="4459" />
           <entry key="HTML" value="32" />
           <entry key="JSON" value="23" />
-          <entry key="PHP" value="9670" />
+          <entry key="PHP" value="9916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -316,7 +319,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="1863">
               <caret line="78" column="24" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="24" />
             </state>
           </provider>
@@ -325,48 +328,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
+            <state relative-caret-position="-432">
+              <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
-                <element signature="e#367#399#0#PHP" />
-                <element signature="e#404#986#0#PHP" />
-                <element signature="e#992#1087#0#PHP" />
-                <element signature="e#1092#1162#0#PHP" />
-                <element signature="e#1168#1193#0#PHP" />
-                <element signature="e#1198#1728#0#PHP" />
-                <element signature="e#1734#1829#0#PHP" />
-                <element signature="e#3642#4091#0#PHP" />
-                <element signature="e#2289#2312#0#PHP" />
-                <element signature="e#2317#2759#0#PHP" />
-                <element signature="e#2765#2788#0#PHP" />
-                <element signature="e#2793#2981#0#PHP" />
-                <element signature="e#2987#3041#0#PHP" />
-                <element signature="e#3046#3580#0#PHP" />
-                <element signature="e#5394#5422#0#PHP" />
-                <element signature="e#5427#5502#0#PHP" />
-                <element signature="e#4279#4298#0#PHP" />
-                <element signature="e#6650#6678#0#PHP" />
-                <element signature="e#6683#7069#0#PHP" />
-                <element signature="e#7075#7170#0#PHP" />
-                <element signature="e#5104#6261#0#PHP" />
-                <element signature="e#8338#8433#0#PHP" />
-                <element signature="e#8438#8901#0#PHP" />
-                <element signature="e#8907#9005#0#PHP" />
-                <element signature="e#9010#10057#0#PHP" />
-                <element signature="e#10063#10158#0#PHP" />
-                <element signature="e#10163#10678#0#PHP" />
-                <element signature="e#10684#10781#0#PHP" />
-                <element signature="e#10786#11380#0#PHP" />
-                <element signature="e#11386#11485#0#PHP" />
-                <element signature="e#11490#12723#0#PHP" />
-                <element signature="e#12729#12830#0#PHP" />
-                <element signature="e#12835#13419#0#PHP" />
-                <element signature="e#11826#11896#0#PHP" />
-                <element signature="e#11902#12040#0#PHP" />
-                <element signature="e#12045#12504#0#PHP" />
-                <element signature="e#12510#12639#0#PHP" />
-                <element signature="e#12644#13637#0#PHP" />
+                <element signature="e#3781#3823#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -375,15 +341,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/menus/menus.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+            <state relative-caret-position="581">
+              <caret line="82" column="58" lean-forward="true" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1291#1297#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#4#10#0" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
                 <element signature="e#4#10#0" expanded="true" />
@@ -396,8 +356,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/menus/menusshow.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="1215">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -424,6 +384,7 @@
       <find>$tagid</find>
       <find>alike</find>
       <find>clone2</find>
+      <find>genre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -575,9 +536,9 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="99" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="316" />
+    <option name="y" value="23" />
     <option name="width" value="1057" />
     <option name="height" value="632" />
   </component>
@@ -667,7 +628,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="D:/wwwroot/laravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -708,15 +669,16 @@
       <updated>1551922181706</updated>
       <workItem from="1551922188006" duration="57912000" />
       <workItem from="1552387456969" duration="25300000" />
-      <workItem from="1552609851263" duration="22612000" />
+      <workItem from="1552609851263" duration="25818000" />
+      <workItem from="1552871870337" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159953000" />
+    <option name="totallyTimeSpent" value="163769000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -998,9 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,85 +967,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="1863">
           <caret line="78" column="24" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
-          <folding>
-            <element signature="e#47#75#0#PHP" expanded="true" />
-            <element signature="e#367#399#0#PHP" />
-            <element signature="e#404#986#0#PHP" />
-            <element signature="e#992#1087#0#PHP" />
-            <element signature="e#1092#1162#0#PHP" />
-            <element signature="e#1168#1193#0#PHP" />
-            <element signature="e#1198#1728#0#PHP" />
-            <element signature="e#1734#1829#0#PHP" />
-            <element signature="e#3642#4091#0#PHP" />
-            <element signature="e#2289#2312#0#PHP" />
-            <element signature="e#2317#2759#0#PHP" />
-            <element signature="e#2765#2788#0#PHP" />
-            <element signature="e#2793#2981#0#PHP" />
-            <element signature="e#2987#3041#0#PHP" />
-            <element signature="e#3046#3580#0#PHP" />
-            <element signature="e#5394#5422#0#PHP" />
-            <element signature="e#5427#5502#0#PHP" />
-            <element signature="e#4279#4298#0#PHP" />
-            <element signature="e#6650#6678#0#PHP" />
-            <element signature="e#6683#7069#0#PHP" />
-            <element signature="e#7075#7170#0#PHP" />
-            <element signature="e#5104#6261#0#PHP" />
-            <element signature="e#8338#8433#0#PHP" />
-            <element signature="e#8438#8901#0#PHP" />
-            <element signature="e#8907#9005#0#PHP" />
-            <element signature="e#9010#10057#0#PHP" />
-            <element signature="e#10063#10158#0#PHP" />
-            <element signature="e#10163#10678#0#PHP" />
-            <element signature="e#10684#10781#0#PHP" />
-            <element signature="e#10786#11380#0#PHP" />
-            <element signature="e#11386#11485#0#PHP" />
-            <element signature="e#11490#12723#0#PHP" />
-            <element signature="e#12729#12830#0#PHP" />
-            <element signature="e#12835#13419#0#PHP" />
-            <element signature="e#11826#11896#0#PHP" />
-            <element signature="e#11902#12040#0#PHP" />
-            <element signature="e#12045#12504#0#PHP" />
-            <element signature="e#12510#12639#0#PHP" />
-            <element signature="e#12644#13637#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/menus/menusshow.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="1215">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
+          <folding>
+            <element signature="e#47#75#0#PHP" expanded="true" />
+            <element signature="e#3781#3823#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/menus/menus.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        <state relative-caret-position="581">
+          <caret line="82" column="58" lean-forward="true" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1291#1297#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4#10#0" expanded="true" />
             <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
             <element signature="e#4#10#0" expanded="true" />

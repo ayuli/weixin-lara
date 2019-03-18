@@ -31,17 +31,17 @@
 
                     {{--<div class="cfD clone3" style="margin-left: 60px;">--}}
                         {{--<button class="button clone" style="width: 30px;">+</button>--}}
-                        {{--<input class="addUser username" type="text" placeholder="输入二级级菜单名" />--}}
-                        {{--<select class="tagid genre alike">--}}
+                        {{--<input class="addUser username2" type="text" placeholder="输入二级级菜单名" />--}}
+                        {{--<select class="tagid genre2 alike2">--}}
                             {{--<option value="">请选择类型</option>--}}
                             {{--<option value="click">点击事件</option>--}}
                             {{--<option value="view">跳转事件</option>--}}
                         {{--</select>--}}
                         {{--<div class="cfD url" style="margin-left: 10px;display: none">--}}
-                            {{--URL:&nbsp;<input type="text" class="addUser keyurl" style="width: 440px;" />--}}
+                            {{--URL:&nbsp;<input type="text" class="addUser keyurl2" style="width: 440px;" />--}}
                         {{--</div>--}}
                     {{--</div>--}}
-                </div>
+                {{--</div>--}}
 
 
 
@@ -79,6 +79,20 @@
             }
         })
 
+
+        // $(document).on("change",".genre2",function () {
+        //     var _select = $(this).val();
+        //     if(_select=="click"){
+        //         $(this).next().html("KEY:&nbsp;<input type='text' class='addUser keyurl2' style='width: 440px;' />")
+        //         $(this).next().show();
+        //     }else if(_select=="view"){
+        //         $(this).next().html("URL:&nbsp;<input type='text' class='addUser keyurl2' style='width: 440px;' />")
+        //         $(this).next().show();
+        //     }else{
+        //         $(this).next().next().hide();
+        //         $(this).next().hide();
+        //     }
+        // })
         //克隆
         $(document).on( "click",".clone",function() {
             if($(".clone2").size()>2){
@@ -110,16 +124,32 @@
                 keyurl.push(_this.val())
             });
 
+            var name2 = [];
+            $(".username2").each(function () {
+                var _this = $(this);
+                name2.push(_this.val())
+            });
+            var arr2 = [];
+            $(".alike2").each(function () {
+                var _this = $(this);
+                arr2.push(_this.val())
+            });
+            var keyurl2 = [];
+            $(".keyurl2").each(function () {
+                var _this = $(this);
+                keyurl2.push(_this.val())
+            });
+
             $.ajax({
                 url : '/menus/add',
                 type: 'post',
-                data : {name:name,type:arr,keyurl:keyurl},
+                data : {name:name,type:arr,keyurl:keyurl,name2:name2,type2:arr2,keyurl2:keyurl2},
                 dataType:   'json',
                 success :   function(d){
-                    if(d.errcode==0){
-                        alert("创建成功");
-                    }
-                    // console.log(d)
+                    // if(d.errcode==0){
+                    //     alert("创建成功");
+                    // }
+                    console.log(d)
                 }
 
             })

@@ -159,8 +159,39 @@ class weixinContorller extends Controller
      */
     public function menusAdd(Request $request)
     {
+//        $name = $request->input('name');
+//        $type = $request->input('type');
+//        $keyurl = $request->input('keyurl');
+//        $name2 = $request->input('name2');
+//        $type2 = $request->input('type2');
+//        $keyurl2 = $request->input('keyurl2');
+//
+//        foreach($type as $k=>$v){
+//            if($v=='view'){
+//                $arr['button'][] = [
+//                    'name'=>$name[$k],
+//                    'type'=>$v,
+//                    'url'=>$keyurl[$k],
+////                    'sub_button'=>[
+////                    foreach($type as $k=>$v){
+////                        [
+////                            "type"=>"view",
+////                            "name"=>"搜索",m
+////                            "url"=>"http://www.soso.com/"
+////                        ],
+////                    }
+////                    ]
+//                ];
+//            }else{
+//                $arr['button'][] = [
+//                    'name'=>$name[$k],
+//                    'type'=>$v,
+//                    'key'=>$keyurl[$k],
+//                ];
+//            }
+//        }
+//        print_r($arr);die;
         $data = $request->input();
-//        print_r($data);die;
         $count = count($data);
         $arr = [];
         for($i=0;$i<$count;$i++){
@@ -176,28 +207,6 @@ class weixinContorller extends Controller
         $info['button'] = $arr;
 
         $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this->accessToken();
-//        $data = [
-//        "button"=>[
-//            [
-//                "type"=>"click",
-//                "name"=>"娃娃",
-//                'key'=>123456
-//            ],
-//
-//            [
-//                'type'=>'click',
-//                "name"=>"玩具",
-//                'key'=>123456
-//            ],
-//
-//            [
-//                'type'=>'view',
-//                "name"=>"推广",
-//                'url'=>"https://www.baidu.com/"
-//            ]
-//
-//        ]
-//    ];
 
 
         $json = json_encode($info,JSON_UNESCAPED_UNICODE);
