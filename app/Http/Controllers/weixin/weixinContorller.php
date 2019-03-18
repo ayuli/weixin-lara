@@ -6,12 +6,23 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Support\Facades\Cache;
 use App\model\TagsModel;
+use Illuminate\Support\Facades\Storage;
+
 
 class weixinContorller extends Controller
 {
     public $appid = 'wxec28b3ff844e2bf3';
     public $appsecret = '25bf2acbd494c6856754eb96580f21f1';
 
+    public function test(Request $request){
+        $data  = file_get_contents("php://input");
+        $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
+
+        file_put_contents("/tmp/weixin.log",$log_str,FILE_APPEND);
+
+//        $xml = simplexml_load_string($data);//将xml字符串转换成对象
+
+    }
     /**
      * 获取accessToken
      */
@@ -444,6 +455,141 @@ class weixinContorller extends Controller
         return $send;
 
     }
+
+    /**
+     * 上传临时素材
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function uploadFile()
+    {
+        return view('upload.uploadfile');
+
+    }
+    /**
+     * 临时素材执行
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function uploadFileDo($filepath)
+    {
+//        $filePath = $request->input('path');
+        $url = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=".$this->accessToken()."&type=image";
+
+        $fileSzie = filesize($filepath);
+
+        $media = new \CURLFile($filepath);  //media;
+
+        $data = [
+            'media' => $media,
+            'form-data' => [
+                'filename' => time(),
+                'filelength' => $fileSzie,  //文件大小
+                'content-type' => 'image/jpeg',
+            ]
+        ];
+
+        $obj = new \Url();
+        $send = $obj->sendPost($url,$data);
+        return $send;
+    }
+
+    /**
+     * 临时文件展示展示展示
+     */
+    public function uploadShow(Request $request)
+    {
+        $page = $request->input('page',1);
+        $page_num = 3;
+        $start = ($page-1)*$page_num;
+        $end =$start+$page_num-1;
+
+        $list_key = 'list_key';
+        $total = ceil(Redis::llen($list_key)/$page_num); //总条数
+//        echo $total;die;
+
+        $lrange = Redis::lrange($list_key,$start,$end); //获取队列
+        $arr = [];
+        foreach($lrange as $k=>$v){
+            $data = Redis::hgetall($v);
+            array_push($arr,$data);
+        }
+//        echo'<pre>';print_r($arr);echo '<pre>';
+        //处理分页
+        $prev = $page-1<1?1:$page-1;
+        $next = $page+1>$total?$total:$page+1;
+
+        $data=[
+            'arr'=>$arr,
+            'first' =>1,
+            'prev' => $prev,
+            'next' => $next,
+            'total' => $total
+        ];
+        return view('upload.uploadshow',$data);
+    }
+
+    /**
+     * 无调转显示图片
+     */
+    public function uploadAjax(Request $request)
+    {
+
+        if ($request->isMethod('POST')) {
+            $fileCharater = $request->file('file');
+//            var_dump($fileCharater);die;
+            if ($fileCharater->isValid()) {
+                $ext = $fileCharater->getClientOriginalExtension();// 文件后缀
+                $path = $fileCharater->getRealPath();//获取文件的绝对路径
+                $filename = date('Ymdhis').'.'.$ext;//定义文件名
+                Storage::disk('public')->put($filename, file_get_contents($path));
+                $file = "./upload/".$filename;
+                //调用接口
+                $info = $this->uploadFileDo($file);
+                //把调用回来的数据储存到redis缓存
+                $arrImg = json_decode($info,true);
+                $media_id =$arrImg['media_id'];
+                $created_at =$arrImg['created_at'];
+                $endTime =$created_at+86400*3;
+//                var_dump($endTime);die;
+                $data = [
+                    'media_id' => $media_id,
+                    'path' => $file,
+                    'created_at' => $created_at,
+                    'end_time' => $endTime
+                ];
+
+                $this->uploadCach($data);
+                return json_encode($file);
+
+
+            }
+        }
+
+
+    }
+
+    /**
+     * 将临时素材存到缓存中
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function uploadCach($data)
+    {
+        $id = Redis::incr('id');
+        //哈希
+        $hash_key = 'id_'.$id;
+
+        Redis::hSet($hash_key,'id',$id);
+        Redis::hSet($hash_key,'path',$data['path']);
+        Redis::hSet($hash_key,'media_id',$data['media_id']);
+        Redis::hSet($hash_key,'created_at',$data['created_at']);
+        Redis::hSet($hash_key,'end_time',$data['end_time']);
+        //队列
+        $list_key = 'list_key';
+
+        Redis::rpush($list_key,$hash_key);
+
+
+    }
+
 
 
 

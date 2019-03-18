@@ -64,6 +64,12 @@ Route::post('/joinTags','weixin\weixinContorller@joinTags'); //批量加入标�
 Route::get('/examine','weixin\weixinContorller@examine'); //查看标签下的用户
 Route::post('/examineOff','weixin\weixinContorller@examineOff'); //批量取消标签下的用户
 
+// 上传临时素材
+Route::get('/uploadfile','weixin\weixinContorller@uploadFile');
+Route::post('/uploadfiledo','weixin\weixinContorller@uploadFileDo'); //上传临时素材执行
+Route::post('/uploadajax','weixin\weixinContorller@uploadAjax'); //无调转显示图片
+Route::get('/uploadshow','weixin\weixinContorller@uploadShow'); //无调转显示图片
+
 
 
 
