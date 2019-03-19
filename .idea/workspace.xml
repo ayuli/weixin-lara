@@ -126,6 +126,7 @@
       <change beforePath="$PROJECT_DIR$/public/js/ajaxfileupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/ajaxfileupload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/jquery.mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.mousewheel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/manhuaDate.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/manhuaDate.1.0.js" afterDir="false" />
@@ -134,6 +135,49 @@
       <change beforePath="$PROJECT_DIR$/public/js/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logs/wx_event.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/logs/wx_event.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552877589" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552877589" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552878289" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552878289" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552878306" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552878306" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552878451" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552878451" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879065" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879065" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879145jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879145jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879157.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879157.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879166.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879166.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879253.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879253.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879264.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879264.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879272.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879272.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879284.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879284.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879402.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879402.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552879979.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552879979.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552880188.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552880188.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552880327.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552880327.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552880672.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552880672.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552880998.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552880998.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552881120.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552881120.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552881177.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552881177.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552881253.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552881253.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552881286.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552881286.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552881292.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552881292.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552881326.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552881326.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552891424.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552891424.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552891431.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552891431.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552891456.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552891456.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/1552891491.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/1552891491.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318065416.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318065416.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318065544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318065544.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318065703.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318065703.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318070257.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318070257.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318070523.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318070523.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318070635.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318070635.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318072903.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318072903.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318072935.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318072935.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318073003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318073003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318073825.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318073825.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318074154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318074154.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318074309.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318074309.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318074427.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318074427.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318074659.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318074659.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/20190318075459.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/upload/20190318075459.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
@@ -165,6 +209,8 @@
       <change beforePath="$PROJECT_DIR$/resources/views/tags/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/update.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/test/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/test/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/upload/uploadfile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/upload/uploadfile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/upload/uploadshow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/upload/uploadshow.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/manage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/manage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/weixin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/weixin/index.blade.php" afterDir="false" />
@@ -229,22 +275,22 @@
           <entry key="curl" value="25" />
           <entry key="env" value="35" />
           <entry key="json" value="23" />
-          <entry key="php" value="17418" />
+          <entry key="php" value="21061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="35" />
-          <entry key="Blade" value="5131" />
+          <entry key="Blade" value="6030" />
           <entry key="HTML" value="32" />
           <entry key="JSON" value="23" />
-          <entry key="PHP" value="12280" />
+          <entry key="PHP" value="15024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="2" />
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="curl" value="3" />
           <entry key="env" value="4" />
           <entry key="gitignore" value="1" />
@@ -252,7 +298,7 @@
           <entry key="js" value="1" />
           <entry key="json" value="3" />
           <entry key="log" value="7" />
-          <entry key="php" value="83" />
+          <entry key="php" value="113" />
           <entry key="phtml" value="3" />
           <entry key="png" value="2" />
         </counts>
@@ -260,14 +306,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="4" />
-          <entry key="Blade" value="44" />
-          <entry key="CSS" value="2" />
+          <entry key="Blade" value="61" />
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="1" />
           <entry key="Log" value="7" />
-          <entry key="PHP" value="45" />
+          <entry key="PHP" value="58" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SmartyConfig" value="2" />
         </counts>
@@ -321,83 +367,79 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/msg/MsgController.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="51" />
+              <caret line="38" selection-start-line="38" selection-end-line="62" selection-end-column="5" />
+              <folding>
+                <element signature="e#44#72#0#PHP" expanded="true" />
+                <element signature="e#297#329#0#PHP" />
+                <element signature="e#334#916#0#PHP" />
+                <element signature="e#922#987#0#PHP" />
+                <element signature="e#959#1792#0#PHP" />
+                <element signature="e#922#943#0#PHP" />
+                <element signature="e#948#1285#0#PHP" />
+                <element signature="e#1291#1315#0#PHP" />
+                <element signature="e#1320#2282#0#PHP" />
+                <element signature="e#2288#2315#0#PHP" />
+                <element signature="e#2423#2590#0#PHP" />
+                <element signature="e#3269#3297#0#PHP" />
+                <element signature="e#3302#4189#0#PHP" />
+                <element signature="e#4195#4218#0#PHP" />
+                <element signature="e#4223#4585#0#PHP" />
+                <element signature="e#4591#4620#0#PHP" />
+                <element signature="e#4625#5043#0#PHP" />
+                <element signature="e#5049#5081#0#PHP" />
+                <element signature="e#5086#5586#0#PHP" />
+                <element signature="e#5592#5615#0#PHP" />
+                <element signature="e#5620#5890#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/tem/TemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="260">
+              <caret line="190" column="4" lean-forward="true" selection-start-line="190" selection-start-column="4" selection-end-line="214" selection-end-column="5" />
               <folding>
-                <element signature="e#47#75#0#PHP" expanded="true" />
-                <element signature="e#366#398#0#PHP" />
-                <element signature="e#403#985#0#PHP" />
-                <element signature="e#991#1086#0#PHP" />
-                <element signature="e#1091#1161#0#PHP" />
-                <element signature="e#1167#1192#0#PHP" />
-                <element signature="e#1197#1727#0#PHP" />
-                <element signature="e#1733#1828#0#PHP" />
-                <element signature="e#1833#2282#0#PHP" />
-                <element signature="e#2288#2311#0#PHP" />
-                <element signature="e#2316#2758#0#PHP" />
-                <element signature="e#2764#2787#0#PHP" />
-                <element signature="e#2792#2980#0#PHP" />
-                <element signature="e#2986#3040#0#PHP" />
-                <element signature="e#3045#3579#0#PHP" />
-                <element signature="e#3585#3613#0#PHP" />
-                <element signature="e#3618#3693#0#PHP" />
-                <element signature="e#3699#3727#0#PHP" />
-                <element signature="e#3732#5554#0#PHP" />
-                <element signature="e#3781#3823#0#PHP" />
-                <element signature="e#5560#5588#0#PHP" />
-                <element signature="e#5593#5981#0#PHP" />
-                <element signature="e#5987#6082#0#PHP" />
-                <element signature="e#6087#7244#0#PHP" />
-                <element signature="e#7250#7345#0#PHP" />
-                <element signature="e#7350#7813#0#PHP" />
-                <element signature="e#7819#7917#0#PHP" />
-                <element signature="e#7922#8969#0#PHP" />
-                <element signature="e#8975#9070#0#PHP" />
-                <element signature="e#9075#9590#0#PHP" />
-                <element signature="e#9596#9693#0#PHP" />
-                <element signature="e#9698#10292#0#PHP" />
-                <element signature="e#10298#10397#0#PHP" />
-                <element signature="e#10402#11635#0#PHP" />
-                <element signature="e#11641#11742#0#PHP" />
-                <element signature="e#11747#12331#0#PHP" />
-                <element signature="e#12409#12506#0#PHP" />
-                <element signature="e#12599#12696#0#PHP" />
-                <element signature="e#13391#13420#0#PHP" />
-                <element signature="e#13393#13419#0#PHP" />
-                <element signature="e#13662#14963#0#PHP" />
-                <element signature="e#14877#14978#0#PHP" />
-                <element signature="e#14983#15012#0#PHP" />
+                <element signature="e#44#72#0#PHP" expanded="true" />
+                <element signature="e#297#329#0#PHP" />
+                <element signature="e#334#916#0#PHP" />
+                <element signature="e#922#946#0#PHP" />
+                <element signature="e#951#1197#0#PHP" />
+                <element signature="e#1203#1225#0#PHP" />
+                <element signature="e#1230#1642#0#PHP" />
+                <element signature="e#1648#1670#0#PHP" />
+                <element signature="e#1675#3371#0#PHP" />
+                <element signature="e#1931#2772#0#PHP" />
+                <element signature="e#3377#3398#0#PHP" />
+                <element signature="e#4208#4237#0#PHP" />
+                <element signature="e#4242#4660#0#PHP" />
+                <element signature="e#4666#4698#0#PHP" />
+                <element signature="e#4703#5203#0#PHP" />
+                <element signature="e#5209#5232#0#PHP" />
+                <element signature="e#5237#5507#0#PHP" />
+                <element signature="e#5513#5578#0#PHP" />
+                <element signature="e#5583#6371#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/upload/uploadshow.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/msg/tagmsglist.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/upload/uploadfile.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="31" column="60" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="60" />
-              <folding>
-                <element signature="e#2488#2523#0#HTML" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -414,7 +456,6 @@
       <find>input</find>
       <find>checkbox</find>
       <find>option</find>
-      <find>tagid</find>
       <find>blacklist</find>
       <find>examine</find>
       <find>extend</find>
@@ -427,6 +468,9 @@
       <find>delban</find>
       <find>uploadfile</find>
       <find>test</find>
+      <find>tagid</find>
+      <find>jointags</find>
+      <find>处理分页</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -435,11 +479,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/model/UserModel.php" />
-        <option value="$PROJECT_DIR$/resources/views/weixin/user.blade.php" />
-        <option value="&lt;2f96e213-f262-4a44-9fee-24737553b07d&gt;/conf/nginx.conf" />
-        <option value="&lt;2f96e213-f262-4a44-9fee-24737553b07d&gt;/html/laravel/.env" />
-        <option value="&lt;2f96e213-f262-4a44-9fee-24737553b07d&gt;/html/test.php" />
         <option value="&lt;2f96e213-f262-4a44-9fee-24737553b07d&gt;/html/laravel/config/app.php" />
         <option value="&lt;2f96e213-f262-4a44-9fee-24737553b07d&gt;/html/laravel/app/Model/GoodsModel.php" />
         <option value="&lt;2f96e213-f262-4a44-9fee-24737553b07d&gt;/html/laravel/app/Http/Controllers/weixin/WeixinController.php" />
@@ -458,7 +497,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/weixin/tagsAdd.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/weixin/moContorller.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/extend/curl/curl" />
         <option value="$PROJECT_DIR$/app/extend/url/url" />
         <option value="$PROJECT_DIR$/app/extend/url/url.php" />
@@ -470,7 +508,6 @@
         <option value="$PROJECT_DIR$/resources/views/tags/update.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/blacklist.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/blackshow.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/manage.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tags/examine.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/test.php" />
@@ -481,10 +518,18 @@
         <option value="$PROJECT_DIR$/resources/views/menus/menus.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/upload/uploadfile.blade.php" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/left.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/upload/uploadshow.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/manage.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/msg/openmsglist.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/left.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/msg/temlist.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/msg/msgshow.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/msg/tagmsglist.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/msg/MsgController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/tem/TemController.php" />
       </list>
     </option>
   </component>
@@ -581,10 +626,10 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="157" />
-    <option name="y" value="74" />
-    <option name="width" value="1231" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="102" />
+    <option name="y" value="62" />
+    <option name="width" value="1248" />
     <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -605,7 +650,44 @@
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="msg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="tem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
@@ -623,12 +705,7 @@
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="msg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -644,18 +721,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/wwwroot/lening_shop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\laravel\resources\views\msg" />
       <recent name="Z:\laravel\resources\views\upload" />
       <recent name="Z:\laravel\resources\views\menus" />
       <recent name="Z:\laravel\resources\views\tags" />
       <recent name="Z:\laravel\resources\views\user" />
-      <recent name="D:\wwwroot\laravel\resources\views\tags" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\laravel\resources\views" />
@@ -686,19 +763,19 @@
       <workItem from="1551922188006" duration="57912000" />
       <workItem from="1552387456969" duration="25300000" />
       <workItem from="1552609851263" duration="25818000" />
-      <workItem from="1552871870337" duration="23133000" />
+      <workItem from="1552871870337" duration="41397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186292000" />
+    <option name="totallyTimeSpent" value="204556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16641453" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22995462" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -722,7 +799,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20332718" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23063973" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -751,42 +828,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/msg/MsgController.php</url>
+          <line>134</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/tem/TemController.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/UserModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/weixin/user.blade.php" />
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4131" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/weixin/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -834,13 +892,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/weixin/tagsAdd.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extend/curl/curl" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -905,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/manage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="192" column="11" lean-forward="true" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tags/examine.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -940,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="116" column="53" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tags/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-297">
@@ -968,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/menus/menusshow.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/menus/menus.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -991,17 +1021,24 @@
     <entry file="file://$PROJECT_DIR$/storage/app/public/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/left.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="149" column="64" lean-forward="true" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/filesystems.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/upload/uploadshow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1015,68 +1052,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/upload/uploadshow.blade.php">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="933">
+          <caret line="116" column="53" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/public/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="537" column="22" selection-start-line="537" selection-start-column="21" selection-end-line="537" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/manage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3321">
+          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/left.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="123" column="33" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/msg/openmsglist.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/menus/menusshow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="46" column="29" lean-forward="true" selection-end-line="111" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/msg/temlist.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="51" />
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/msg/msgshow.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/msg/tagmsglist.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/weixin/weixinContorller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="-4162">
+          <caret line="517" column="8" selection-start-line="517" selection-start-column="8" selection-end-line="518" selection-end-column="46" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
-            <element signature="e#366#398#0#PHP" />
-            <element signature="e#403#985#0#PHP" />
-            <element signature="e#991#1086#0#PHP" />
-            <element signature="e#1091#1161#0#PHP" />
-            <element signature="e#1167#1192#0#PHP" />
-            <element signature="e#1197#1727#0#PHP" />
-            <element signature="e#1733#1828#0#PHP" />
-            <element signature="e#1833#2282#0#PHP" />
-            <element signature="e#2288#2311#0#PHP" />
-            <element signature="e#2316#2758#0#PHP" />
-            <element signature="e#2764#2787#0#PHP" />
-            <element signature="e#2792#2980#0#PHP" />
-            <element signature="e#2986#3040#0#PHP" />
-            <element signature="e#3045#3579#0#PHP" />
-            <element signature="e#3585#3613#0#PHP" />
-            <element signature="e#3618#3693#0#PHP" />
-            <element signature="e#3699#3727#0#PHP" />
-            <element signature="e#3732#5554#0#PHP" />
-            <element signature="e#3781#3823#0#PHP" />
-            <element signature="e#5560#5588#0#PHP" />
-            <element signature="e#5593#5981#0#PHP" />
-            <element signature="e#5987#6082#0#PHP" />
-            <element signature="e#6087#7244#0#PHP" />
-            <element signature="e#7250#7345#0#PHP" />
-            <element signature="e#7350#7813#0#PHP" />
-            <element signature="e#7819#7917#0#PHP" />
-            <element signature="e#7922#8969#0#PHP" />
-            <element signature="e#8975#9070#0#PHP" />
-            <element signature="e#9075#9590#0#PHP" />
-            <element signature="e#9596#9693#0#PHP" />
-            <element signature="e#9698#10292#0#PHP" />
-            <element signature="e#10298#10397#0#PHP" />
-            <element signature="e#10402#11635#0#PHP" />
-            <element signature="e#11641#11742#0#PHP" />
-            <element signature="e#11747#12331#0#PHP" />
-            <element signature="e#12409#12506#0#PHP" />
-            <element signature="e#12599#12696#0#PHP" />
-            <element signature="e#13391#13420#0#PHP" />
-            <element signature="e#13393#13419#0#PHP" />
-            <element signature="e#13662#14963#0#PHP" />
-            <element signature="e#14877#14978#0#PHP" />
-            <element signature="e#14983#15012#0#PHP" />
+            <element signature="e#736#768#0#PHP" />
+            <element signature="e#773#1355#0#PHP" />
+            <element signature="e#1361#1456#0#PHP" />
+            <element signature="e#1461#1531#0#PHP" />
+            <element signature="e#1537#1562#0#PHP" />
+            <element signature="e#1567#2097#0#PHP" />
+            <element signature="e#2203#2652#0#PHP" />
+            <element signature="e#2686#3128#0#PHP" />
+            <element signature="e#3162#3350#0#PHP" />
+            <element signature="e#3356#3410#0#PHP" />
+            <element signature="e#3415#3949#0#PHP" />
+            <element signature="e#4098#5992#0#PHP" />
+            <element signature="e#6525#7682#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/msg/MsgController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" selection-start-line="38" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+            <element signature="e#297#329#0#PHP" />
+            <element signature="e#334#916#0#PHP" />
+            <element signature="e#922#987#0#PHP" />
+            <element signature="e#959#1792#0#PHP" />
+            <element signature="e#922#943#0#PHP" />
+            <element signature="e#948#1285#0#PHP" />
+            <element signature="e#1291#1315#0#PHP" />
+            <element signature="e#1320#2282#0#PHP" />
+            <element signature="e#2288#2315#0#PHP" />
+            <element signature="e#2423#2590#0#PHP" />
+            <element signature="e#3269#3297#0#PHP" />
+            <element signature="e#3302#4189#0#PHP" />
+            <element signature="e#4195#4218#0#PHP" />
+            <element signature="e#4223#4585#0#PHP" />
+            <element signature="e#4591#4620#0#PHP" />
+            <element signature="e#4625#5043#0#PHP" />
+            <element signature="e#5049#5081#0#PHP" />
+            <element signature="e#5086#5586#0#PHP" />
+            <element signature="e#5592#5615#0#PHP" />
+            <element signature="e#5620#5890#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/tem/TemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="190" column="4" lean-forward="true" selection-start-line="190" selection-start-column="4" selection-end-line="214" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+            <element signature="e#297#329#0#PHP" />
+            <element signature="e#334#916#0#PHP" />
+            <element signature="e#922#946#0#PHP" />
+            <element signature="e#951#1197#0#PHP" />
+            <element signature="e#1203#1225#0#PHP" />
+            <element signature="e#1230#1642#0#PHP" />
+            <element signature="e#1648#1670#0#PHP" />
+            <element signature="e#1675#3371#0#PHP" />
+            <element signature="e#1931#2772#0#PHP" />
+            <element signature="e#3377#3398#0#PHP" />
+            <element signature="e#4208#4237#0#PHP" />
+            <element signature="e#4242#4660#0#PHP" />
+            <element signature="e#4666#4698#0#PHP" />
+            <element signature="e#4703#5203#0#PHP" />
+            <element signature="e#5209#5232#0#PHP" />
+            <element signature="e#5237#5507#0#PHP" />
+            <element signature="e#5513#5578#0#PHP" />
+            <element signature="e#5583#6371#0#PHP" />
           </folding>
         </state>
       </provider>

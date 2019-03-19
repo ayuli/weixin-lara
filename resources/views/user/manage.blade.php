@@ -92,7 +92,6 @@
                 <button class="button blacklist" >批量拉黑</button>
             </div>
 
-                <div class="paging">此处是分页</div>
             </div>
             <!-- banner 表格 显示 end-->
         </div>
@@ -102,35 +101,9 @@
 </div>
 
 
-<!-- 删除弹出框 -->
-<div class="banDel">
-    <div class="delete">
-        <div class="close">
-            <a><img src="img/shanchu.png" /></a>
-        </div>
-        <p class="delP1">你确定要删除此条记录吗？</p>
-        <p class="delP2">
-            <a href="#" class="ok yes">确定</a><a class="ok no">取消</a>
-        </p>
-    </div>
-</div>
-<!-- 删除弹出框  end-->
 </body>
 
 <script type="text/javascript">
-    // 广告弹出框
-    $(".delban").click(function(){
-        $(".banDel").show();
-    });
-    $(".close").click(function(){
-        $(".banDel").hide();
-    });
-    $(".no").click(function(){
-        $(".banDel").hide();
-    });
-    // 广告弹出框 end
-
-
     //加入黑名单
 
     $(".blacklist").click(function () {

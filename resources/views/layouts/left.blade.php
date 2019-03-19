@@ -80,29 +80,59 @@
         </dl>
         <dl class="system_log">
             <dt>
-                <img class="icon1" src="../img/coin10.png" /><img class="icon2"
-                                                                  src="../img/coin09.png" /> 行家管理<img class="icon3"
-                                                                                                      src="../img/coin19.png" /><img class="icon4"
-                                                                                                                                     src="../img/coin20.png" />
+                <img class="icon1" src="../img/coin10.png" />
+                <img class="icon2" src="../img/coin09.png" />
+                行家管理
+                <img class="icon3" src="../img/coin19.png" />
+                <img class="icon4" src="../img/coin20.png" />
             </dt>
             <dd>
-                <img class="coin11" src="../img/coin111.png" /><img class="coin22"
-                                                                    src="../img/coin222.png" /><a href="../connoisseur.html"
-                                                                                                  target="main" class="cks">行家管理</a><img class="icon5"
-                                                                                                                                         src="../img/coin21.png" />
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="../connoisseur.html" target="main" class="cks">
+                    行家管理</a>
+                <img class="icon5" src="../img/coin21.png" />
             </dd>
         </dl>
         <dl class="system_log">
             <dt>
-                <img class="icon1" src="../img/coin11.png" /><img class="icon2"
-                                                                  src="../img/coin12.png" /> 话题管理<img class="icon3"
-                                                                                                      src="../img/coin19.png" /><img class="icon4"
-                                                                                                                                     src="../img/coin20.png" />
+                <img class="icon1" src="../img/coin11.png" />
+                <img class="icon2" src="../img/coin12.png" />
+                群发
+                <img class="icon3" src="../img/coin19.png" />
+                <img class="icon4" src="../img/coin20.png" />
             </dt>
             <dd>
-                <img class="coin11" src="../img/coin111.png" /><img class="coin22"
-                                                                    src="../img/coin222.png" /><a href="../topic.html" target="main"
-                                                                                                  class="cks">话题管理</a><img class="icon5" src="../img/coin21.png" />
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="/tagmsglist" target="main" class="cks">
+                    标签群发
+                </a>
+                <img class="icon5" src="../img/coin21.png" />
+            </dd>
+            <dd>
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="/openmsglist" target="main" class="cks">
+                    openid群发
+                </a>
+                <img class="icon5" src="../img/coin21.png" />
+            </dd>
+            <dd>
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="/temlist" target="main" class="cks">
+                    模板发送
+                </a>
+                <img class="icon5" src="../img/coin21.png" />
+            </dd>
+            <dd>
+                <img class="coin11" src="../img/coin111.png" />
+                <img class="coin22" src="../img/coin222.png" />
+                <a href="/msglist" target="main" class="cks">
+                    消息列表
+                </a>
+                <img class="icon5" src="../img/coin21.png" />
             </dd>
         </dl>
         <dl class="system_log">

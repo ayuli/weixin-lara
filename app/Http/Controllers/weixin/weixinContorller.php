@@ -5,7 +5,6 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Support\Facades\Cache;
-use App\model\TagsModel;
 use Illuminate\Support\Facades\Storage;
 
 
@@ -47,6 +46,32 @@ class weixinContorller extends Controller
 
         }
         return $Cache;
+    }
+
+    /**
+     * 获取关注列表的openid  然后获取用户基本信息
+     * @return mixed
+     */
+    public function userInfo(){
+        //获取用户信息
+        $url_openid = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$this->accessToken();
+        $obj = new \Url;
+        $send = $obj->sendGet($url_openid);
+        $arr_openid = json_decode($send,true);
+
+        $openid = $arr_openid['data']['openid'];
+        $url_user = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=".$this->accessToken();
+        foreach($openid as $k => $v){
+            $d['user_list'][] = [
+                "openid"=> $v,
+                "lang"=> "zh_CN"
+            ];
+        }
+        $json_user = json_encode($d,JSON_UNESCAPED_UNICODE);
+        $send_user = $obj->sendPost($url_user,$json_user);
+
+        $dataInfo = json_decode($send_user,true);
+        return $dataInfo;
     }
 
     /**
@@ -163,7 +188,7 @@ class weixinContorller extends Controller
      */
     public function menus()
     {
-            return view('menus/menus');
+        return view('menus/menus');
     }
 
     /**

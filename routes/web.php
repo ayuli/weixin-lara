@@ -71,7 +71,27 @@ Route::post('/uploadajax','weixin\weixinContorller@uploadAjax'); //无调转显�
 Route::get('/uploadshow','weixin\weixinContorller@uploadShow'); //无调转显示图片
 
 
+//群发
+Route::get('/tagmsglist','msg\MsgController@tagMsgList'); //根据标签群发
+Route::get('/openmsglist','msg\MsgController@openMsgList'); //根据openid群发
 
+
+Route::get('/msglist','msg\MsgController@msgList'); //消息列表
+
+
+Route::post('/tagmsg','msg\MsgController@tagMsg'); //根据标签群发
+Route::post('/openmsg','msg\MsgController@openMsg'); //根据openid群发
+Route::post('/delmsg','msg\MsgController@delMsg'); //删除群发
+Route::post('/statusmsg','msg\MsgController@statusMsg'); //查询群发消息发送状态
+
+
+//模板
+Route::get('/temlist','tem\TemController@temList'); //获取模板列表
+
+
+Route::get('/gettem','tem\TemController@getTem'); //获取模板列表
+Route::post('/deltem','tem\TemController@delTem'); //删除模板
+Route::post('/sendtem','tem\TemController@sendTem'); //发送模板
 
 
 
