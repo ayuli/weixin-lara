@@ -4,37 +4,11 @@ namespace App\Http\Controllers\tem;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Common;
 use Illuminate\Support\Facades\Redis;
 
-class TemController extends Controller
+class TemController extends Common
 {
-    public $appid = 'wxec28b3ff844e2bf3';
-    public $appsecret = '25bf2acbd494c6856754eb96580f21f1';
-
-    /**
-     * 获取accessToken
-     */
-    public function accessToken()
-    {
-        $Cache = Cache('accessToken');
-
-        if(!$Cache){
-            $obj = new \Url();
-            $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".$this->appid."&secret=".$this->appsecret;
-
-            $arrInfo = $obj->sendGet($url);
-
-            $data = json_decode($arrInfo,true);
-
-            $access_token = $data['access_token'];
-            $expires_in = $data['expires_in'];
-
-            //存进缓存
-            Cache(['accessToken'=>$access_token],$expires_in);
-
-        }
-        return $Cache;
-    }
 
     /**
      *获取模板列表
@@ -68,15 +42,18 @@ class TemController extends Controller
      */
     public function sendTem(Request $request)
     {
+        $openid = $request->input('openid');
+//        echo $openid;die;
         $name = $request->input('name');
         $price = $request->input('price');
+        $template_id = 'YciOOTHrkVyhCcHA0PDb4K6WkeKAsR6X8I2aARj2fqw';
         $url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=".$this->accessToken();
         $data =[
-            "touser" => "oMgNg1V7HwUWBupWWAjDInPVto-I",
-            'template_id' => '2yda4VNTWeztkSczpMqFkIiTR7ZIYoTGVPB8dwog_WY',
+            "touser" => $openid,
+            'template_id' => $template_id,
             'data' => [
                 'first' => [
-                    'value' => '恭喜你购买成功!',
+                    'value' => '恭喜您购买成功!',
                     "color" => "#173177"
                 ],
                 'second' => [
@@ -84,7 +61,7 @@ class TemController extends Controller
                     "color" => "#173177"
                 ],
                 'thirdly' => [
-                    'value' => $price,
+                    'value' => $price.'元',
                     "color" => "#173177"
                 ],
                 'fourthly' => [
@@ -101,7 +78,7 @@ class TemController extends Controller
         $json = json_encode($data,JSON_UNESCAPED_UNICODE);
         $obj = new \Url();
         $send = $obj->sendPost($url,$json);
-//        var_dump($send);die;
+
         $str_da = json_decode($send,true);
 
         if($str_da['errcode']!=0){  //判断是否发送成功 没有直接返回错误

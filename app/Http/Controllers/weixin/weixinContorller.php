@@ -3,16 +3,14 @@ namespace App\Http\Controllers\weixin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Common;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Storage;
 
 
-class weixinContorller extends Controller
+class weixinContorller extends Common
 {
-    public $appid = 'wxec28b3ff844e2bf3';
-    public $appsecret = '25bf2acbd494c6856754eb96580f21f1';
-
     public function test(Request $request){
 //        echo ['echostr'];
         $data  = file_get_contents("php://input");
@@ -22,56 +20,6 @@ class weixinContorller extends Controller
 
 //        $xml = simplexml_load_string($data);//将xml字符串转换成对象
 
-    }
-    /**
-     * 获取accessToken
-     */
-    public function accessToken()
-    {
-        $Cache = Cache('accessToken');
-
-        if(!$Cache){
-            $obj = new \Url();
-            $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".$this->appid."&secret=".$this->appsecret;
-
-            $arrInfo = $obj->sendGet($url);
-
-            $data = json_decode($arrInfo,true);
-
-            $access_token = $data['access_token'];
-            $expires_in = $data['expires_in'];
-
-            //存进缓存
-            Cache(['accessToken'=>$access_token],$expires_in);
-
-        }
-        return $Cache;
-    }
-
-    /**
-     * 获取关注列表的openid  然后获取用户基本信息
-     * @return mixed
-     */
-    public function userInfo(){
-        //获取用户信息
-        $url_openid = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$this->accessToken();
-        $obj = new \Url;
-        $send = $obj->sendGet($url_openid);
-        $arr_openid = json_decode($send,true);
-
-        $openid = $arr_openid['data']['openid'];
-        $url_user = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=".$this->accessToken();
-        foreach($openid as $k => $v){
-            $d['user_list'][] = [
-                "openid"=> $v,
-                "lang"=> "zh_CN"
-            ];
-        }
-        $json_user = json_encode($d,JSON_UNESCAPED_UNICODE);
-        $send_user = $obj->sendPost($url_user,$json_user);
-
-        $dataInfo = json_decode($send_user,true);
-        return $dataInfo;
     }
 
     /**
@@ -120,11 +68,10 @@ class weixinContorller extends Controller
         $url = "https://api.weixin.qq.com/cgi-bin/tags/get?access_token=".$this->accessToken();
         $tag_obj = $obj->sendGet($url);
         $tag_arr = json_decode($tag_obj,true);
-//        echo'<pre>';print_r($tag_arr);echo '<pre>';exit;
+
         $data = [
             'arr' =>  $tag_arr['tags'],
         ];
-//        var_dump($data);exit;
         return view('tags.show',$data);
     }
 
@@ -278,32 +225,9 @@ class weixinContorller extends Controller
     public  function userManage()
     {
        //获取用户信息
-        $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$this->accessToken();
-        $obj = new \Url;
-        $send = $obj->sendGet($url);
-        $arr = json_decode($send,true);
-//        echo'<pre>';print_r($arr->data);echo '<pre>';
+        $json3 = $this->userInfo();
 
-        $openid = $arr['data']['openid'];
-
-        $url2 = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=".$this->accessToken();
-
-        foreach($openid as $k => $v){
-            $d['user_list'][] = [
-                "openid"=> $v,
-                "lang"=> "zh_CN"
-            ];
-        }
-//        echo'<pre>';print_r($d);echo '<pre>';die;
-
-        $json2 = json_encode($d,JSON_UNESCAPED_UNICODE);
-        $send2 = $obj->sendPost($url2,$json2);
-
-        $json3 = json_decode($send2,true);
-
-
-
-
+        $obj = new \Url();
         $url3 = "https://api.weixin.qq.com/cgi-bin/tags/get?access_token=".$this->accessToken();
         $tag_obj = $obj->sendGet($url3);
         $tag_arr = json_decode($tag_obj,true);
@@ -491,6 +415,7 @@ class weixinContorller extends Controller
         return view('upload.uploadfile');
 
     }
+
     /**
      * 临时素材执行
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View

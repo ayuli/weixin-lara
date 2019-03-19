@@ -17,10 +17,10 @@
             <div class="baBody">
                 <div class="cfD">
                     用户:
-                    <select name="" id="">
+                    <select name="" id="openid">
                         <option value="">请选择</option>
                     @foreach($user_info_list as $key => $value)
-                        <option value="{{$value['openid']}}">{{$value['nickname']}}</option>
+                        <option value="{{$value['openid']}}" >{{$value['nickname']}}</option>
                         @endforeach
                     </select>
                 </div>
@@ -46,10 +46,10 @@
 </html>
 <script>
     $(".btn_yes").click(function(){
-        var id = $("[name='user']").val();
+        var openid = $("#openid").val();
         var data ={};
 
-        data.id = id;
+        data.openid = openid;
         data.name = $('#name').val();
         data.price = $("#price").val();
         // console.log(data);
